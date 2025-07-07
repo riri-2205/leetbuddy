@@ -1,12 +1,130 @@
 body {
-  width: 200px;
-  font-family: Arial, sans-serif;
-  padding: 10px;
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
 }
 
-h1 {
-  font-size: 16px;
+.container {
+  padding: 20px;
+}
+
+h3 {
+  margin: 0 0 20px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h4 {
   margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.section {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle-container input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.toggle-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.token-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.token-input::placeholder {
+  color: #666;
+}
+
+.save-btn {
+  background: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.save-btn:hover {
+  background: #45a049;
+}
+
+.save-btn:disabled {
+  background: #666;
+  cursor: not-allowed;
+}
+
+.status-message {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-message.success {
+  color: #4CAF50;
+}
+
+.status-message.error {
+  color: #f44336;
+}
+
+.help-text {
+  font-size: 11px;
+  opacity: 0.8;
+  margin: 8px 0 0 0;
+  line-height: 1.4;
+}
+
+.help-text a {
+  color: #81c784;
+  text-decoration: none;
+}
+
+.help-text a:hover {
+  text-decoration: underline;
+}
+
+.info {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.info p {
+  margin: 5px 0;
+  opacity: 0.9;
 }
 
 .switch {
