@@ -37,7 +37,7 @@ LeetBuddy uses a content script to detect the current problem being viewed on Le
 ---
 
 ## File structure
-
+```bash
 leetbuddy/
 ├── manifest.json
 ├── popup.html
@@ -47,6 +47,7 @@ leetbuddy/
 ├── hints.js
 ├── styles.css
 └── icon.png
+```
 
 
 ##  Coming Soon
