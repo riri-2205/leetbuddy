@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "LeetBuddy",
+  "name": "LeetHint",
   "version": "1.0",
   "description": "Get helpful hints while solving LeetCode problems.",
   "action": {
