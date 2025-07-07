@@ -6,12 +6,34 @@
   <link rel="stylesheet" href="popup.css" />
 </head>
 <body>
-  <h1>💡 LeetBuddy</h1>
-  <p>Toggle hints:</p>
-  <label class="switch">
-    <input type="checkbox" id="hintToggle" />
-    <span class="slider round"></span>
-  </label>
+  <div class="container">
+    <h3>🧠 LeetHint AI</h3>
+    
+    <div class="section">
+      <label class="toggle-container">
+        <input type="checkbox" id="hintsToggle">
+        <span class="toggle-label">Enable AI Hints</span>
+      </label>
+    </div>
+
+    <div class="section">
+      <h4>🤗 Hugging Face API Token</h4>
+      <input type="password" id="hfToken" placeholder="Enter your HF token here..." class="token-input">
+      <button id="saveToken" class="save-btn">Save Token</button>
+      <div id="tokenStatus" class="status-message"></div>
+      <p class="help-text">
+        Get your free token at <a href="https://huggingface.co/settings/tokens" target="_blank">huggingface.co/settings/tokens</a>
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="info">
+        <p>✨ AI-powered hints for LeetCode problems</p>
+        <p>🔄 Click refresh button for new hints</p>
+        <p>📚 Falls back to curated hints if AI fails</p>
+      </div>
+    </div>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>

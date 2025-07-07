@@ -10,11 +10,14 @@
   "content_scripts": [
     {
       "matches": ["*://leetcode.com/problems/*"],
-      "js": ["hints.js", "content.js"],
+      "js": ["ai-service.js", "hints.js", "content.js"],
       "css": ["styles.css"]
     }
   ],
   "permissions": ["storage"],
+  "host_permissions": [
+    "https://api-inference.huggingface.co/*"
+  ],
   "icons": {
     "48": "icon.png"
   }
