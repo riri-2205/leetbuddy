@@ -1,6 +1,10 @@
 # LeetHint AI – Chrome Extension for AI-Powered LeetCode Hints
 
 LeetHint AI is an intelligent Chrome Extension that provides AI-generated hints for LeetCode problems using Hugging Face's language models. Get personalized guidance without spoiling the solution!
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/268be600-8e04-476e-9363-54235fdc4c00" />
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/bebd6a24-46ae-4879-8cb5-c8a0b9504e76" />
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/f5c4e41c-253e-41c3-863a-821194410c4b" />
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/f5954175-6b03-4c56-b514-f78143c2705c" />
 
 ## ✨ Features
 
